@@ -1,0 +1,16 @@
+@{
+ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @{Html.RenderPartial("_HeaderNavBar");}
+    <div class="row">
+        <div class="col-3">
+            <partial name="/Views/Shared/_Tabs.cshtml" />
+        </div>
+        <div class="col-9">
+            <div class="container"><br>
+            </div>
+        </div>
+    </div>
+</div>
